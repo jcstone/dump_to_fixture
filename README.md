@@ -22,7 +22,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+DumpToFixture provides a rake task and a method for dumping objects and tables. 
+
+To dump all development tables with the rake task: 
+
+```ruby
+rake db:dump_to_fixture
+```
+
+To dump an indiviodaul Active Record object:
+```ruby 
+object.dump_to_fixture
+```
 
 ## Development
 
