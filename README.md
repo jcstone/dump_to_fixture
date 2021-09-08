@@ -30,7 +30,7 @@ To dump all development tables with the rake task:
 rake db:dump_to_fixture
 ```
 
-To dump an indiviodaul Active Record object:
+To dump an individual Active Record object:
 ```ruby 
 object.dump_to_fixture
 ```
